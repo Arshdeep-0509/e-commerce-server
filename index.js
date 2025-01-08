@@ -5,7 +5,7 @@ import authRoutes from "./routes/authRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import dotenv from "dotenv";
 import cors from "cors";
-import "../server/config/passportConfig.js"; 
+import "./config/passportConfig.js"; 
 
 dotenv.config();
 
